@@ -2,8 +2,14 @@ function drawBoard(state) {
     let html = "<table>";
     for (let i = 9; i >= 0; i--) {
         html += "<tr>";
-        for (let j = 0; j < 10; j++) {
-            let cell = i % 2 === 0 ? i * 10 + j : i * 10 + (9 - j);
+        for (let j = 1; j <= 10; j++) {
+            // Calcula el número de celda del 1 al 100
+            let cell;
+            if (i % 2 === 0) {
+                cell = i * 10 + j;
+            } else {
+                cell = i * 10 + (11 - j);
+            }
             html += `<td id="cell-${cell}">${cell}</td>`;
         }
         html += "</tr>";
