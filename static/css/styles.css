@@ -1,0 +1,71 @@
+body {
+    background: url("../img/music_theme_bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    position: relative;
+}
+
+.player-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.winner-banner {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffeb3b;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #000;
+    z-index: 9999;
+    box-shadow: 0 0 10px #000;
+    animation: pop 0.5s ease-in-out;
+}
+
+.final-banner {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #222;
+    color: #fff;
+    padding: 20px 40px;
+    border: 3px solid #00ffcc;
+    border-radius: 12px;
+    z-index: 9999;
+    text-align: center;
+}
+
+.final-banner table {
+    width: 100%;
+    margin-top: 10px;
+    color: #00ffcc;
+    border-collapse: collapse;
+}
+
+.final-banner th, .final-banner td {
+    border: 1px solid #00ffcc;
+    padding: 8px;
+}
+
+@keyframes pop {
+    0% { transform: translateX(-50%) scale(0); opacity: 0; }
+    100% { transform: translateX(-50%) scale(1); opacity: 1; }
+}
