@@ -1,7 +1,7 @@
 # Serpientes y Escaleras
 Proyecto integrador de la asignatura "Tecnologías y aplicaciónes en internet".\
 \
-Esta asignatura pertenece al 8vo cuatrimestre de la carrera de **Ingeniería en tecnologías de la información** de la **Universidad Politécnica Metropolitana de Hidalgo**\
+Esta asignatura pertenece al 8vo cuatrimestre de la carrera de **Ingeniería en tecnologías de la información** de la **Universidad Politécnica Metropolitana de Hidalgo**
 ## Dependencias necesarias
 Es necesario tener instalada la libreria de "Flask", para ello solo debemos correr la siguiente linea de codigo en la terminal:\
 ```pip install Flask```\
