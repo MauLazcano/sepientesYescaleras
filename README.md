@@ -1,9 +1,9 @@
 # Serpientes y Escaleras
 Proyecto integrador de la asignatura de "Tecnologías y aplicaciónes en internet"
 ## Dependencias necesarias
-Es necesario tener instalada la libreria de "Flask", para ello solo debemos correr la siguiente linea de codigo en la terminal:
-```pip install Flask```
-si el comando anterior no funciona, probar con:
+Es necesario tener instalada la libreria de "Flask", para ello solo debemos correr la siguiente linea de codigo en la terminal:\
+```pip install Flask```\
+si el comando anterior no funciona, probar con:\
 ```pip3 install Flask```
 
 ## Ejecución del codigo
